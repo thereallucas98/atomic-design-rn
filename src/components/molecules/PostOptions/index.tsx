@@ -9,7 +9,8 @@ import {
 } from "../../../global/styles/icons";
 
 import { IconButton } from "../../atoms/IconButton";
-import { styles } from "../../../pages/Feed/styles";
+
+import { styles } from "./styles";
 
 export function PostOptions() {
   return (

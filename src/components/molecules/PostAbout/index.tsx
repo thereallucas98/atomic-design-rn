@@ -2,8 +2,9 @@ import React from "react";
 import { ImageProps, View } from "react-native";
 
 import { PostLikedText } from "../../atoms/PostLikedText";
-import { styles } from "../../../pages/Feed/styles";
 import { PostLikedAvatar } from "../../atoms/PostLikedAvatar";
+
+import { styles } from "./styles";
 
 interface PostAboutProps {
   avatar: ImageProps;

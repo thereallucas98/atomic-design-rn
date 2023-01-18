@@ -50,51 +50,9 @@ export const styles = StyleSheet.create({
   post: {
     marginTop: 52,
   },
-  postHeader: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginBottom: 7,
-    paddingHorizontal: 10,
-  },
-  cover: {
-    width,
-  },
   postFooter: {
     width,
     paddingVertical: 15,
     paddingHorizontal: 10,
-  },
-  postUsername: {
-    fontSize: 12,
-    fontWeight: "bold",
-  },
-  postLocation: {
-    fontSize: 10,
-  },
-  postOptions: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-  },
-  postOptionsSide: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  lastLiked: {
-    width: 20,
-    height: 20,
-  },
-  postAbout: {
-    flexDirection: "row",
-    marginTop: 14,
-  },
-  likes: {
-    marginLeft: 7,
-    fontWeight: "bold",
-    fontSize: 13,
-  },
-  description: {
-    textAlign: "justify",
-    fontSize: 13,
-    marginTop: 6,
   },
 });

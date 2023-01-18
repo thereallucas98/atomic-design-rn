@@ -3,11 +3,11 @@ import { View } from "react-native";
 
 import { ProfileIcon } from "../../../global/styles/icons";
 
-import { styles } from "../../../pages/Feed/styles";
-
 import { PostAvatar } from "../../atoms/PostAvatar";
 import { PostUsernameText } from "../../atoms/PostUsernameText";
 import { PostLocationText } from "../../atoms/PostLocationText";
+
+import { styles } from "./styles";
 
 interface PostHeaderProps {
   username: string;
