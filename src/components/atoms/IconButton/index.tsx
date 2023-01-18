@@ -5,7 +5,7 @@ import {
 } from "react-native-gesture-handler";
 import { SvgProps } from "react-native-svg";
 
-import { styles } from "../../../pages/Feed/styles";
+import { styles } from "./styles";
 
 type IconButtonProps = BorderlessButtonProps & {
   icon: React.FC<SvgProps>;

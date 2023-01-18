@@ -56,11 +56,6 @@ export const styles = StyleSheet.create({
     marginBottom: 7,
     paddingHorizontal: 10,
   },
-  postAvatar: {
-    width: 32,
-    height: 32,
-    marginRight: 9,
-  },
   cover: {
     width,
   },
@@ -83,9 +78,6 @@ export const styles = StyleSheet.create({
   postOptionsSide: {
     flexDirection: "row",
     alignItems: "center",
-  },
-  postOptionsIcon: {
-    marginRight: 15,
   },
   lastLiked: {
     width: 20,
