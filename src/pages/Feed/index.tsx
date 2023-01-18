@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Image, FlatList } from "react-native";
+import { View, Text, Image, FlatList, SafeAreaView } from "react-native";
 
 import {
   MessengerIcon,
@@ -15,7 +15,7 @@ import { styles } from "./styles";
 
 export function Feed() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.header}>
         <View style={styles.headerSide}>
           <CameraIcon />
@@ -44,8 +44,7 @@ export function Feed() {
           )}
         />
       </View>
-
       <Posts />
-    </View>
+    </SafeAreaView>
   );
 }
