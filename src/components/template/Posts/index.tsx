@@ -3,11 +3,11 @@ import { FlatList } from "react-native";
 
 import { IPost, Post } from "../../organisms/Post";
 
-import { styles } from "../../../pages/Feed/styles";
+import { styles } from "./styles";
 
 type PostsProps = {
   data: IPost[];
-}
+};
 
 export function Posts({ data }: PostsProps) {
   return (
@@ -16,9 +16,7 @@ export function Posts({ data }: PostsProps) {
       style={styles.posts}
       showsVerticalScrollIndicator={false}
       keyExtractor={(post) => post.id}
-      renderItem={({ item }) => (
-        <Post data={item} />
-      )}
+      renderItem={({ item }) => <Post data={item} />}
     />
   );
 }
