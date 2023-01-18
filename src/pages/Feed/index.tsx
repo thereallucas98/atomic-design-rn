@@ -10,6 +10,7 @@ import {
 
 import { Posts } from "../../components/template/Posts";
 import { profiles } from "../../utils/profiles";
+import { posts } from "../../utils/posts";
 
 import { styles } from "./styles";
 
@@ -44,7 +45,7 @@ export function Feed() {
           )}
         />
       </View>
-      <Posts />
+      <Posts data={posts} />
     </SafeAreaView>
   );
 }

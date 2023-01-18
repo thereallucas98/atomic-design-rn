@@ -1,12 +1,14 @@
 import React from "react";
-import { ImageProps, Text, View } from "react-native";
+import { ImageProps, View } from "react-native";
 
-import { PostPhoto } from "../../atoms/PostPhoto";
-import { PostHeader } from "../../molecules/PostHeader";
-import { styles } from "../../../pages/Feed/styles";
-import { PostOptions } from "../../molecules/PostOptions";
-import { PostAbout } from "../../molecules/PostAbout";
 import { PostDescription } from "../../atoms/PostDescription";
+import { PostPhoto } from "../../atoms/PostPhoto";
+
+import { PostAbout } from "../../molecules/PostAbout";
+import { PostHeader } from "../../molecules/PostHeader";
+import { PostOptions } from "../../molecules/PostOptions";
+
+import { styles } from "../../../pages/Feed/styles";
 
 export type Profile = {
   id: string;
@@ -24,7 +26,7 @@ export type IPost = {
   lastLiked: Profile;
 };
 
-interface PostProps {
+export interface PostProps {
   data: IPost;
 }
 
