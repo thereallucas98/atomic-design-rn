@@ -44,6 +44,7 @@ export const styles = StyleSheet.create({
   username: {
     fontSize: 12,
   },
+
   post: {
     marginTop: 52,
   },
